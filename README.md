@@ -46,4 +46,5 @@ As with the design there are a few things I would have done differently and extr
 * The mobile navigation toggle does not work
 * I have organised my code into components for each section and in the case of the tables, smaller chunks. With more time this would have allowed me to add some dynamic functionality around these, add some mock data and logic, making less markup with loops and passing in props etc. Apologies if this is what you were expecting to see in this task.
 * I have used native date inputs for the datepickers, however, there are known accessibility issues with these, such as keyboard date selection. With more time I would have looked into accessibility packages there may be out there making them a more custom element
+    * The date inputs also don't look too great on mobile (tested iOS Safari). Tried to customise them a little but not quite working
 * I would like to make the candidate average cards overflow on mobile, so can swipe through them rather than them stack, as does add a lot to page height. But would also be something that would want to investigate if these pages are visited on mobile etc
