@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+@theme {
+    --font-sans: "Mukta Mahee", "sans-serif";
+
+    --color-brand-purple: #2b308a;
+
+    --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+    --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+  }
+
+html {
+    @apply font-sans;
+}
+
+h2 {
+    @apply text-2xl md:text-4xl font-bold mb-4 md:mb-6;
+}
+
+label {
+    @apply font-bold text-xl mb-2;
+}
+
+input,
+select {
+    @apply outline-4 outline-black bg-white py-0 rounded-none h-11 lg:text-xl;
+}
+
+button {
+    @apply bg-black font-bold text-white min-h-11 outline-4 outline-black transition-colors;
+}
+
+input:focus-visible,
+select:focus-visible,
+button:focus-visible {
+    @apply outline-brand-purple outline-offset-1;
+}
+
+button:hover {
+    @apply bg-brand-purple outline-brand-purple text-white;
+}
