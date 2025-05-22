@@ -1,4 +1,4 @@
-# James Bateson Unseen group dashboard task
+# James Bateson Unseen Group dashboard task
 Task for Unseen Group dashboard page design and build
 
 ## Design
