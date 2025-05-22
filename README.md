@@ -23,6 +23,7 @@ There are a few things I would like to note from the design. Things with more ti
     * In the design I have also shown a solution that could help with the size of these tables and this solution. This would be to just view the average scores of one assesor at a time. The downside to this being that you would lose the ability to do any comparison. however, again would want to find out if people were using the data in that kind of way
     * A final thought I had (but didn't design or build) was to have one large table as on the provided current dashboard, and have the ability to "stick" the assessor name column, so people could have this in view at all times and then just horizontally scroll to see the different criteria scores
 * To speed up the design process I used some components from the Simple Design System Figma library and then adapted them for use. Probably not the best way to go about things, but with no assests/brand guidelines and the time factor, I decided this would be more efficient
+* I considered the idea of adding an in-page anchor nav to the different sections, however, with time, couldn't find the right place or way to add this without it feeling just shoehorned in with no thought
 
 ## Build
 
@@ -43,3 +44,4 @@ As witht he design there are a few things I would have done differently and extr
 * The mobile navigation toggle does not work
 * I have organised my code into components for each section and in the case of the tables, smaller chunks. With more time this would have allowed me to add some dynamic functionality around these, add some mock data and logic, making less markup with loops and passing in props etc. Apologies if this is what you were expecting to see in this task.
 * I have used native date inputs for the datepickers, however, there are known accessibility issues with these, such as keyboard date selection. With more time I would have looked into accessibility packages there may be out there making them a more custom element
+* Seems to be a pesky issue with the sticky header not sticking past a certian point!
