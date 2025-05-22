@@ -7,7 +7,7 @@ Task for Unseen Group dashboard page design and build
 
 I started off by having a look at the current TopScore site to get an idea of their branding.
 
-I then jotted down some ideas for how I interprated the breif, and how I planned to appraoch it, tools I thought I would use etc. You can find some pictures of these files in the `dashboard-design` directory. Whilst they are rough and not moview quality. I think it shows an important part of the process and how I like to appraoch tasks.
+I then jotted down some ideas for how I interpreted the breif, and how I planned to appraoch it, tools I thought I would use etc. You can find some pictures of these files in the `dashboard-design` directory. Whilst they are rough and not moview quality. I think it shows an important part of the process and how I like to appraoch tasks.
 
 ### Moving into Figma
 
