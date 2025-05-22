@@ -1,0 +1,46 @@
+<section class="py-6 md:py-12">
+	<h2>Filter campaign</h2>
+
+	<form
+		class="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:items-end md:gap-10"
+	>
+		<div>
+			<label for="campaign" class="block text-sm mb-1"
+				>Campaign name</label
+			>
+			<select id="campaign" class="w-full p-2 rounded text-black">
+				<option selected>BP Test Campaign</option>
+				<option>Test Campaign 1</option>
+				<option>Test Campaign 2</option>
+				<option>Test Campaign 3</option>
+				<option>Test Campaign 4</option>
+			</select>
+		</div>
+
+		<div>
+			<label for="start-date" class="block text-sm mb-1">Start date</label
+			>
+			<input
+				id="start-date"
+				type="date"
+				class="w-full p-2 rounded text-black"
+				value="2025-05-18"
+			/>
+		</div>
+
+		<div>
+			<label for="end-date" class="block text-sm mb-1">End date</label>
+			<input
+				id="end-date"
+				type="date"
+				class="w-full p-2 rounded text-black"
+				value="2025-05-21"
+			/>
+		</div>
+
+		<div class="mt-4 md:mt-auto col-span-2 md:col-span-1 md:align-self-end">
+			<button type="submit" class="px-4 py-2 w-full">Apply Filters</button
+			>
+		</div>
+	</form>
+</section>
