@@ -1,5 +1,5 @@
 # James Bateson Unseen Group dashboard task
-Task for Unseen Group dashboard page design and build
+Task for Unseen Group dashboard page re-design and build
 
 ## Design
 
@@ -50,3 +50,7 @@ As with the design there are a few things I would have done differently and extr
 * I would like to make the candidate average cards overflow on mobile, so can swipe through them rather than them stack, as does add a lot to page height. But would also be something that would want to investigate if these pages are visited on mobile etc
 * Would ideally locally host the custom font rather than using Google Fonts
 * The assessor average table is just repeated due to component sharing, however, the second one would be as in the design, Group Presentation with three criteria etc
+
+## Misc
+
+Any issues with accessing the design or code, please let me know.
