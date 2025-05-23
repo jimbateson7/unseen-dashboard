@@ -2,12 +2,8 @@
 
 @theme {
     --font-sans: "Mukta Mahee", "sans-serif";
-
     --color-brand-purple: #2b308a;
-
-    --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
-    --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
-  }
+}
 
 html {
     @apply font-sans;
