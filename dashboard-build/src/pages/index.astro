@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 
 import Nav from '../components/nav.astro';
 import Footer from '../components/footer.astro';
+import CampaignIntro from '../components/campaign-intro.astro';
 import CampaignFilters from '../components/campaign-filters.astro';
 import CampaignSummary from '../components/campaign-summary.astro';
 import CandidateOverviews from '../components/candidate-overviews.astro';
@@ -18,13 +19,7 @@ import '../styles/global.css';
 
 	<main class="bg-gray-200 p-4 md:p-8 space-y-8">
 		<div class="max-w-7xl mx-auto">
-			<h1 class="text-4xl md:text-6xl font-black text-brand-purple mt-1">
-				<span
-					class="text-xl md:text-3xl text-black font-normal mt-2 block"
-					>BP Test Campaign</span
-				>
-				Campaign dashboard
-			</h1>
+			<CampaignIntro />
 
 			<CampaignFilters />
 
